@@ -1,0 +1,8 @@
+.texts{
+  display: flex;
+  flex-direction: column;
+}
+
+.text{
+  background: orange;
+}
