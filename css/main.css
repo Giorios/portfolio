@@ -1,3 +1,5 @@
+font-family: 'Atkinson Hyperlegible', sans-serif;
+
 .texts{
   display: flex;
   flex-direction: column;
@@ -5,4 +7,50 @@
 
 .text{
   background: orange;
+  bottom:
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+}
+
+.left {
+  left: 0;
+  background-color: #EFD09E;
+}
+
+.right {
+  right: 0;
+  background-color: #55D6C2;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  font-size: 35px
+
+}
+
+.centering {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+}
+
+.centered img {
+  width: 150px;
+}
+
+.centering img {
+  width: 400px;
 }
