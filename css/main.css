@@ -1,4 +1,4 @@
-font-family: 'Atkinson Hyperlegible', sans-serif;
+
 
 .texts{
   display: flex;
@@ -17,6 +17,7 @@ font-family: 'Atkinson Hyperlegible', sans-serif;
   z-index: 1;
   top: 0;
   overflow-x: hidden;
+  font-family: sans-serif;
 }
 
 .left {
@@ -35,7 +36,7 @@ font-family: 'Atkinson Hyperlegible', sans-serif;
   left: 25%;
   transform: translate(-50%, -50%);
   text-align: left;
-  font-size: 35px
+  font-size: 28px
 
 }
 
