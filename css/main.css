@@ -1,16 +1,4 @@
-
-
-.texts{
-  display: flex;
-  flex-direction: column;
-}
-
-.text{
-  background: orange;
-  bottom:
-}
-
-.split {
+.top {
   height: 100%;
   width: 50%;
   position: fixed;
@@ -54,4 +42,13 @@
 
 .centering img {
   width: 400px;
+}
+
+.l2 {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  font-size: 28px
 }
