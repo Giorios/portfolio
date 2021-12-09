@@ -1,4 +1,13 @@
-.top {
+.all {
+  font-family: sans-serif;
+  background-color: #EFD09E;
+  display: flex;
+  height: 3000px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+/*.top {
   height: 100%;
   width: 50%;
   position: fixed;
@@ -8,17 +17,9 @@
   font-family: sans-serif;
 }
 
-.left {
-  left: 0;
-  background-color: #EFD09E;
-}
+MAY ALSO USE LATER IF POSSIBLE*/
+/*.centered {
 
-.right {
-  right: 0;
-  background-color: #55D6C2;
-}
-
-.centered {
   position: absolute;
   top: 50%;
   left: 25%;
@@ -36,19 +37,35 @@
   text-align: left;
 }
 
-.centered img {
-  width: 150px;
-}
-
 .centering img {
   width: 400px;
 }
 
-.l2 {
-  position: absolute;
-  top: 50%;
-  left: 25%;
-  transform: translate(-50%, -50%);
-  text-align: left;
-  font-size: 28px
+
+MAY USE CODE LATER IF NEEDED*/
+
+.work {
+  position: relative;
+  left: -23%;
+  top: 80%;
+  
+}
+
+.up img {
+ width: 200px;
+ height: auto;
+
+}
+
+.uimg {
+  position: relative;
+  right: 35%;
+  top: 32%;
+}
+
+.up {
+display: flex;
+
+flex-direction: column ;
+font-size: 20px;
 }
