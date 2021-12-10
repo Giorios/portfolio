@@ -45,16 +45,18 @@ MAY ALSO USE LATER IF POSSIBLE*/
 MAY USE CODE LATER IF NEEDED*/
 
 .work {
+
   position: relative;
   left: -23%;
   top: 80%;
-  
+
 }
+
+
 
 .up img {
  width: 200px;
  height: auto;
-
 }
 
 .uimg {
@@ -65,7 +67,8 @@ MAY USE CODE LATER IF NEEDED*/
 
 .up {
 display: flex;
-
 flex-direction: column ;
 font-size: 20px;
 }
+
+.about
