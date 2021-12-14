@@ -1,5 +1,5 @@
 .all {
-  font-family: sans-serif;
+  font-family: 'Lexend Exa', sans-serif;
   background-color: #EFD09E;
   display: flex;
   height: 3000px;
@@ -7,68 +7,35 @@
   overflow-y: hidden;
 }
 
-/*.top {
-  height: 100%;
-  width: 50%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  overflow-x: hidden;
-  font-family: sans-serif;
-}
-
-MAY ALSO USE LATER IF POSSIBLE*/
-/*.centered {
-
-  position: absolute;
-  top: 50%;
-  left: 25%;
-  transform: translate(-50%, -50%);
-  text-align: left;
-  font-size: 28px
+.up {
+ display: flex;
+ align-items: center;
+ flex-direction: column;
 
 }
-
-.centering {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: left;
-}
-
-.centering img {
-  width: 400px;
-}
-
-
-MAY USE CODE LATER IF NEEDED*/
 
 .work {
-
-  position: relative;
-  left: -23%;
-  top: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 
 }
 
-
-
-.up img {
- width: 200px;
- height: auto;
+.work img {
+  height: 16%;
 }
 
 .uimg {
-  position: relative;
-  right: 35%;
-  top: 32%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
 }
 
-.up {
-display: flex;
-flex-direction: column ;
-font-size: 20px;
-}
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
-.about
+}
