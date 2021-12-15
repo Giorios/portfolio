@@ -5,37 +5,40 @@
   height: 3000px;
   overflow-x: hidden;
   overflow-y: hidden;
+  color: #004346
 }
 
 .up {
- display: flex;
- align-items: center;
- flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
 
 }
+
+
 
 .work {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-start;
   flex-direction: column;
-
 }
 
-.work img {
+.up img {
   height: 16%;
 }
+
 
 .uimg {
   display: flex;
   align-items: center;
   flex-direction: column;
-
 }
 
 .about {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
 }
